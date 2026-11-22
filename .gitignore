@@ -1,0 +1,27 @@
+# ROS 2 colcon
+build/
+install/
+log/
+
+# rosbag2 녹화 (대표 결과만 따로 골라 올린다)
+bags/
+rosbag2_*/
+*.db3
+*.mcap
+
+# clangd가 읽는 빌드 설정 링크
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 결과 원본 (리포트 대표본만 올린다)
+data/raw/
+
+# 편집기 · OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
